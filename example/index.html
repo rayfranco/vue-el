@@ -1,0 +1,16 @@
+<style>
+  img, div {
+    float: left;
+  }
+</style>
+
+<div id="app">
+  <button v-on="click: copyToCanvas">Copy image to canvas</button>
+  <br>
+  <img src="http://vuejs.org/images/logo.png" v-el="logo">
+  <div v-if="copy" v-ref="canvasContainer">
+    <canvas class="canvas" v-el="canvas"></canvas>
+  </div>
+</div>
+
+<script src="example.build.js"></script>

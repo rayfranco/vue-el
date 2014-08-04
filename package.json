@@ -1,0 +1,20 @@
+{
+  "name": "vue-el",
+  "description": "Take control of dom nodes in Vue.js",
+  "version": "0.0.2",
+  "author": "Franco Bouly <fbouly@gmail.com> (http://rayfran.co)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rayfranco/vue-el.git"
+  },
+  "bugs": "https://github.com/rayfranco/vue-el/issues",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "vue": "^0.10.5"
+  },
+  "scripts": {
+    "build": "browserify -e example/example.js -o example/example.build.js"
+  }
+}

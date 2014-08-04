@@ -1,0 +1,9 @@
+{
+    "name": "vue-el",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": ["index.js"],
+    "development": {
+        "yyx990803/vue": "*"
+    }
+}
