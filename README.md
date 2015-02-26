@@ -1,3 +1,6 @@
+__Dreprecated since this feature has been added to Vue 0.11__
+
+
 # vue-el
 
 > Take control of dom nodes in Vue.js
